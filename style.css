@@ -1,0 +1,88 @@
+nav {
+    border: solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-left {
+    border: 2px solid green;
+}
+
+.nav-right {
+    border: 2px solid green;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between; 
+    border: 2px solid green;
+}
+
+
+
+li {
+    border: 2px solid green;
+}
+
+header {
+    border: 2px solid orange;
+}
+
+
+#books {
+    display: flex;
+    border: 2px solid yellow;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid red;
+}
+.grid-container {
+    border: solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+.grid-item {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.text {
+    border: 2px solid yellow;
+}
+
+.text p {
+    border: 2px solid yellow;
+}
+
+.books {
+    border: 2px solid yellow;
+}
+
+#emergency {
+    border: 2px solid blue;
+}
+
+.grid-container {
+    border: 2px solid blue;
+
+}
+
+.grid-item {
+    border: 2px solid pink;
+
+}
+
+footer {
+    
+}
